@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+h1 {
+    color: whitesmoke;
+    font-family: verdana;
+    font-size: 300%;
+}
+p {
+    color: white;
+    font-family: courier;
+    font-size: 160%;
+}
+.side-img {
+    float: right;
+    width: 800px;
+    height: 1200px;
+}
