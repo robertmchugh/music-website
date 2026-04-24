@@ -1,18 +1,52 @@
 body {
   background-color: black;
 }
-h1 {
-    color: whitesmoke;
-    font-family: verdana;
-    font-size: 300%;
-}
 p {
+    float: left;
     color: white;
     font-family: courier;
     font-size: 160%;
+    padding-bottom: 50px;
 }
-.side-img {
+.right-img {
     float: right;
     width: 800px;
     height: 1200px;
+}
+.left-img {
+    float: left;
+    width: 850px;
+    height: 1200px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li a {
+  float: right;
+  display: block;
+  color: white;
+  font-size: 160%;
+  font-family: verdana;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+ul li h1 {
+    float: left;
+    color: whitesmoke;
+    font-family: verdana;
+    font-size: 300%;
+    line-height: 10px;
+}
+
+ul li a:hover {
+  background-color: #111111;
 }
