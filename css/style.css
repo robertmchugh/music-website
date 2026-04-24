@@ -1,13 +1,33 @@
 body {
   background-color: black;
 }
-p {
+
+.visuallyhidden {
+    position: absolute;
+    clip-path: inset(0 0 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+.about-me {
     float: left;
     color: white;
     font-family: courier;
     font-size: 160%;
     padding-bottom: 50px;
 }
+
+.contact-info {
+    float: left;
+    color: white;
+    font-family: courier;
+    font-size: 160%;
+    padding-bottom: 50px;
+}
+
 .right-img {
     float: right;
     width: 800px;
@@ -49,4 +69,19 @@ ul li h1 {
 
 ul li a:hover {
   background-color: #111111;
+}
+
+.spotify-embed {
+    border-radius: 12px;
+    padding-top: 50px;
+}
+
+.apple-embed {
+    border-radius: 12px;
+    padding-top:50px;
+}
+
+.amazon-embed {
+    border-radius: 12px;
+    padding-top:50px;
 }
