@@ -7,12 +7,33 @@
 </head>
   <body>
     <h1 class="visuallyhidden">Contact</h1>
-    <ul>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="music.html">Music</a></li>
-      <li><a href="index.html">Home</a></li>
-      <li><h1>Contact</h1></li>
-    </ul>
+    <section>
+      <nav>
+        <h1>Contact</h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <div class="message-form">
+      <form action="action_page.php">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="Name" placeholder="Name">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Email">
+
+        <label for="message">message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
 
     <div class="contact-info">
       <h2>Business Inquiries</h2>
